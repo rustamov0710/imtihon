@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../../components/Hedaer/Header';
-import Checkout from '../../components/CheckOut/Checkout';
 import Footer from '../../components/Footer/Footer';
+import Checkout from '../../components/Checkout/Checkout';
 
 const ShoppingCheckout = () => {
   return (

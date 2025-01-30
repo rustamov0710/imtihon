@@ -1,0 +1,23 @@
+/* Hero section general styling */
+.hero {
+    padding: 2rem 0;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 2rem;
+      line-height: 2.5rem;
+    }
+  
+    .hero p {
+      font-size: 0.875rem;
+      line-height: 1.5rem;
+    }
+  
+    .hero button {
+      font-size: 0.875rem;
+      padding: 0.5rem 1.5rem;
+    }
+  }
+  

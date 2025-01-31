@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import './Header.css';
 import logo from '../../assets/logo.svg';
+import Modal from "../Modal/Modal";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -49,10 +50,7 @@ const Header = () => {
           <button className="text-gray-600 w-[24px] h-[24px] hover:text-green-600">
             <img src="./korzinka.svg" alt="korzinka_icon" />
           </button>
-          <button className="bg-green-600 text-white px-4 py-2 rounded-[6px] flex items-center gap-[5px]">
-            <img src="./logout.svg" alt="login_icon" className="w-[20px] h-[20px]" />
-            Login
-          </button>
+          <Modal />
           {/* Burger Button (visible only on mobile) */}
         <button
           onClick={toggleMenu}
